@@ -1,0 +1,38 @@
+<html>
+<body>
+<form action="">
+<fieldset style="width:45">
+<legend>Registration Form</legend>
+<label for="fname">First Name</label>
+<input type="text" name="fname" id="fname"><br>
+<label for="lname">Last Name</label>
+<input type="text" name="lname" id="lname"><br>
+<label for="uname">Username</label>
+<input type="text" name="uname" id="uname"><br>
+<label for="pwd">Password</label>
+<input type="password" name="pwd" id="pwd"><br>
+<label for="cpwd">Confirm Password</label>
+<input type="password" name="cpwd" id="cpwd"><br>
+<label for="mail">Email</label>
+<input type="email" name="mail" id="mail"><br>
+<label for="pho">PhoneNo</label>
+<input type="number" name="phone" id="pho"><br>
+<label for="gender"> Gender</label>
+<input type="radio" name="gender" value="M" id=gender">Male
+<input type="radio" name="gender" value="F" id=gender">Female
+<label for="dob">Date of Birth</label>
+<input type="date" name="" id="dob"><br>
+<lael for="course">Course</label>
+<input type="checkbox" name="course" value="course">MCA
+<input type="checkbox" name="course" value="course">MA
+<input type="checkbox" name="course" value="course">MBA
+<input type="checkbox" name="course" value="course">ME<br>
+<label for="profile">Profile</label>
+<input type='file' onchange="readURL(this);" >
+<img id="" src="#"><br>
+<input type="submit" value="register">
+<input type="reset">
+</fieldset>
+</form>
+</body>
+</html>
