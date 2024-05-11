@@ -1,0 +1,20 @@
+<html>
+<body bgcolor="blue"><center>
+<h1>TASK 1</h1>
+<h2><REGISTRATION FORM</h2>
+<form action="success.html">
+ <label for="usname">Username</label>
+<input type="text" name="uname" id="usname" placeholder="enter your name"><br>
+<label for="pswd">Password</label>
+<input type="password" name="pwd" id="pswd" placeholder="enter your password"><br>
+<label for="gender" >Gender</label>
+<input type="radio" name="gender" value ="M" id="mail">Male<br>
+<label for="gender" >Gender</label>
+<input type="radio" name="gender" value ="F" id="mail">Female<br>
+<label for="phoneno" >Phoneno</label>
+<input type="tel" class="phone" id="phoneno"  placeholder="012-345-6789">
+<input type ="submit"  value ="Register"><br>
+</form>
+</center>
+</body>
+</html>
