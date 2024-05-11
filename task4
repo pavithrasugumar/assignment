@@ -1,0 +1,21 @@
+<html>
+<body>
+<fieldset>
+<h1><b>Register your account</b></h1>
+<form action="">
+<label for="name">Enter name</label>
+<input type="text" name="name" id="name" placeholder=" Enter your name"><br>
+<label for="mail">Enter MailID</label>
+<input type="email" name="mail" id="mail" placeholder="Enter your mail"><br>
+<label for ="usname">Enter Username</label>
+<input type="text" name="uname" id="usname"placeholder="Enter your username"><br>
+<label for="uspwd"> Enter Password</label>
+<input type="password" name="pwd" id="uspwd" placeholder="Enter your password"><br>
+<label for="cpwd"> Enter Confirm Password</label>
+<input type="password" name="cpwd" id="cpwd" placeholder="Enter your confirm password"><br>
+<input type="submit" value="create account">
+<input type="reset" value="clear form">
+</form>
+</fieldset>
+</body>
+</html>
