@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html> 
+  
+<body bgcolor="green"> 
+    <h1>TASK 2</h1>
+    <h2>Welcome!!!</h2> 
+    <p>REGISTRATION FORM</p> 
+  
+    
+    <table border="10px" cellpadding="10px" cellspacing="10px" width="50%" bgcolor="lightgreen"> 
+        <form> 
+            <tr> 
+                <td><label for="name">Name</label></td> 
+                <td><input type="text" id="name"></td> 
+            </tr> 
+            <tr> 
+                <td><label for="email">Email</label></td> 
+                <td><input type="email" id="email"></td> 
+            </tr> 
+            <tr> 
+                <td><label for="ph num">PHN No</label></td> 
+                <td><input type="number" id="ph num"></td> 
+            </tr> 
+            <tr> 
+                <td><label for="Roll No.">Roll No</label></td> 
+                <td><input type="number" id="rollno" /></td> 
+            </tr> 
+            <tr>
+                <td colspan="2"><input type="submit">
+                <input type="reset"></td>
+            </tr>
+        </form> 
+    </table> 
+</body> 
+  
+</html>
